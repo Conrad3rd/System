@@ -8,4 +8,4 @@ apt autoremove -y && \
 apt clean && \
 echo "Update ferig. Starte neu"
 shutdown -r now
-# 1
+# 1, 2
