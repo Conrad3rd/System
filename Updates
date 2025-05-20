@@ -1,6 +1,7 @@
 #!/bin/bash
 # APT-Wartungsskript mit Neustart
 
+echo "update"
 apt update && \
 apt full-upgrade -y && \
 apt autoremove -y && \
