@@ -6,4 +6,5 @@ apt update && \
 apt full-upgrade -y && \
 apt autoremove -y && \
 apt clean && \
+echo "Update ferig. Starte neu"
 shutdown -r now
